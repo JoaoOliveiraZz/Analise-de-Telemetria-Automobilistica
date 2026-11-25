@@ -1,0 +1,20 @@
+{
+  "versao": "bahrain_outer_v1",
+  "data_definicao": "2026-11-19",
+  "voltas": [8, 11, 12, 13],
+  "referencia": 13,
+  "criterio": "Quatro regioes de frenagem e saida observadas na volta 13 e segmentos de ligacao, no suporte comum. Limites operacionais, nao setores oficiais. Fixados antes da extracao das tabelas.",
+  "limiares": {"freio_aplicado_pct": 5, "freio_forte_pct": 80, "acelerador_maximo_pct": 99, "sustentacao_minima_s": 0.2},
+  "trechos": [
+    {"id": "T01", "nome": "Inicio e aproximacao", "inicio_m": 5, "fim_m": 500},
+    {"id": "T02", "nome": "Frenagem e saida 1", "inicio_m": 500, "fim_m": 1000},
+    {"id": "T03", "nome": "Ligacao 1", "inicio_m": 1000, "fim_m": 1300},
+    {"id": "T04", "nome": "Frenagem e saida 2", "inicio_m": 1300, "fim_m": 1650},
+    {"id": "T05", "nome": "Ligacao 2", "inicio_m": 1650, "fim_m": 1800},
+    {"id": "T06", "nome": "Transicao, frenagem e saida 3", "inicio_m": 1800, "fim_m": 2150},
+    {"id": "T07", "nome": "Ligacao 3", "inicio_m": 2150, "fim_m": 2800},
+    {"id": "T08", "nome": "Frenagem e saida 4", "inicio_m": 2800, "fim_m": 3200},
+    {"id": "T09", "nome": "Trecho final", "inicio_m": 3200, "fim_m": 3500}
+  ],
+  "regioes_cautela": [{"inicio_m": 720, "fim_m": 755, "motivo": "Coerencia entre distancia e velocidade ainda em investigacao; recuperacao tem apoio qualitativo relatado pelo pesquisador, sem medicao do video."}]
+}
